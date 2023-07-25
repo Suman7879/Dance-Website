@@ -1,0 +1,80 @@
+//- index.pug
+doctype html
+html 
+   head 
+    title Suman's Dance Academy
+    style
+      include ../static/style.css
+   body 
+      nav#navbar 
+       ul
+           div#logo 
+              img(src="/static/logo2.webp")
+              |SDA
+           li #[a(href ="/") Home]
+           li #[a(href ="/") About]
+           li #[a(href ="/") Services]
+           li #[a(href ="/") Class Info]
+           li #[a(href ="/") Contact Us]
+
+      section#introSection 
+        div Welcome to Suman's Dance Academy 
+        div.small Eat Sleep Dance Repeat  
+
+      section#missionSection 
+         h2 Our Mission
+         div.card
+            h3 Dance Perfection 
+            div.card-box
+              div.card-img
+                img(src="/static/dance.png")
+
+              div.card-content
+                 p This is the best dance academy of the universe..!
+                  
+         div.card
+           h3 Dance the Way you like
+           div.card-box
+              div.card-img
+                img(src="/static/dance2.jpg")
+
+              div.card-content
+                 p This is the best dance academy of the universe..!
+                  
+         div.card
+           h3 Expert Teaching 
+           div.card-box
+              div.card-img
+                img(src="/static/dance3.png")
+
+              div.card-content
+                 p This is the best dance academy of the universe..!
+                  
+      section#sponsorsSection 
+        h2 Our Sponsors 
+        div#sponsors
+           img(src="/static/apple2.png", alt="Sponsor Image" class="spImage")
+           img(src="/static/hp.png", alt="Sponsor Image" class="spImage")
+           img(src="/static/microo.webp", alt="Sponsor Image" class="spImage")
+           img(src="/static/skypp.png", alt="Sponsor Image" class="spImage")
+      footer#footer 
+       | copyright © 2023 SumanDanceAcademy.com | All rights  reserved
+      script 
+        include ../static/index.js
+      
+        
+   
+
+   
+
+    
+         
+       
+      
+    
+   
+    
+
+     
+
+
